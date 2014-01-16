@@ -82,6 +82,8 @@
 
 (define-cproc glut-main-loop () ::<void> glutMainLoop)
 
+(define-cproc glut-main-loop-event () ::<void> glutMainLoopEvent)
+
 (define-cproc glut-create-window (name::<const-cstring>)
   ::<int> glutCreateWindow)
 
